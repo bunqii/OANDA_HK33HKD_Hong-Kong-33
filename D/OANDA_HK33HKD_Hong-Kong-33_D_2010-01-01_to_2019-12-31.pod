@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "HK33_HKD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_HK33HKD_Hong-Kong-33_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_HK33HKD_Hong-Kong-33_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2510,
+  "first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 21791.8,
+    "high": 21979.3,
+    "low": 21640.8,
+    "close": 21734.7,
+    "volume": 10602
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 28269.0,
+    "high": 28343.2,
+    "low": 28135.2,
+    "close": 28218.2,
+    "volume": 27192
+  },
+  "csv_file": "OANDA_HK33HKD_Hong-Kong-33_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2510,
+  "csv_first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 21791.8,
+    "high": 21979.3,
+    "low": 21640.8,
+    "close": 21734.7,
+    "volume": 10602
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 28269.0,
+    "high": 28343.2,
+    "low": 28135.2,
+    "close": 28218.2,
+    "volume": 27192
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:03:31.000000000Z",
+  "generated_at": "2026-10-16T02:03:31.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-02-03T22:00:00Z",
+        "to": "2016-10-12T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-12T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
